@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-rest</artifactId>
+        <groupId>com.github.sergio5990</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rest-services</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0</version>
+
+    <name>services</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.sergio5990</groupId>
+            <artifactId>rest-dao</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
