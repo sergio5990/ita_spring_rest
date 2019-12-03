@@ -30,7 +30,7 @@ function deletePerson() {
 
 function addRestPerson() {
     var name = $("#name").val();
-    var surname = $("#surname").valx();
+    var surname = $("#surname").val();
     var age = $("#age").val();
     if (name && surname && age) {
         var person = {
